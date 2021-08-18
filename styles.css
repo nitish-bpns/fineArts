@@ -1,0 +1,311 @@
+/* Styles the thumbnail */
+.photos {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .jumbotron {
+
+    width: 100%;
+    height: 100%;
+    background: url('images/april\ ann9.png');
+    background-repeat: no-repeat;
+    padding-top: 40%;
+    padding-bottom: 18%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    background-size: 100%;
+    -o-background-size: 100%;
+    text-align: center;
+  }
+
+img.box-img{
+    height: 600px;
+}
+
+.modal-content{
+    width: 740px;
+
+}
+
+.modal-header {
+    width: 730px;
+    
+    
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    border-bottom: 1px solid #dee2e6;
+    border-top-left-radius: calc(.3rem - 1px);
+    border-top-right-radius: calc(.3rem - 1px);
+}
+
+  .display-3 {
+    color: black;
+  }
+
+  .subhead {
+    color: black;
+    font-weight: normal;
+  }
+
+  .lead {
+    color: black;
+    font-weight: normal;
+  }
+
+  .my-4 {
+    border: 1px solid black;
+    border-radius: 2px;
+  }
+
+  .img {
+    height: 280px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+    padding: 10px;
+  }
+
+  .img:hover {
+    opacity: 1;
+    transform: scale(1.065)
+  }
+
+
+
+  .card-size {
+    height: 330px;
+    width: 330px;
+
+  }
+
+  .nitish {
+    color: #ffffff;
+  }
+
+  #footer {
+    background-color: #4c4d4d;
+    height: 75px;
+    text-align: center;
+    padding: 0.5px;
+    margin-top: 1px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+  }
+
+  #entry {
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+
+    letter-spacing: 4px;
+    background-color: #222;
+  }
+
+  h2 {
+    color: #ffffff;
+    position: relative;
+  }
+
+
+  .zoom:hover {
+    transform: scale(1.5);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+  body {
+    background-image: url("images/wall7.png");
+    background-repeat: repeat;
+  }
+
+  .logo {
+    height: 60%;
+    width: 60%;
+
+  }
+
+  .vertical-hr {
+    border-right: 1px solid grey;
+    height: 50px;
+    width: 2px;
+    margin-right: 15px;
+  }
+
+  #respond {
+
+    color: #000000;
+    background-color: #969696;
+    margin-top: 1px;
+  }
+
+  #respond input[type='text'],
+  #respond input[type='email'],
+  #respond textarea {
+
+    display: block;
+    width: 50%;
+
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+
+    line-height: 1.4em;
+  }
+
+  @media(max-width:600px) {
+    #card-deck {
+      width: 100%;
+      align-content: center;
+
+    }
+
+    .photos {
+      background;
+    }
+  }
+
+
+
+a.lightbox img {
+    height: 300px;
+    border: 3px solid white;
+    box-shadow: 0px 0px 8px rgba(0,0,0,.3);
+    margin: 9px 20px 20px 20px;
+    z-index: 5;
+    }
+    
+    /* Styles the lightbox, removes it from sight and adds the fade-in transition */
+    
+    .lightbox-target {
+    position: fixed;
+    top: -100%;
+    width: 100%;
+    background: rgba(0,0,0,.7);
+    width: 100%;
+    opacity: 0;
+    -webkit-transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    -o-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
+    overflow: hidden;
+    z-index: 5;
+     
+    }
+    
+    /* Styles the lightbox image, centers it vertically and horizontally, adds the zoom-in transition and makes it responsive using a combination of margin and absolute positioning */
+    
+    .lightbox-target img {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left:0;
+    right:0;
+    bottom: 0;
+    max-height: 0%;
+    max-width: 0%;
+    border: 3px solid white;
+    box-shadow: 0px 0px 8px rgba(0,0,0,.3);
+    box-sizing: border-box;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+      z-index: 5;
+
+    }
+    
+    /* Styles the close link, adds the slide down transition */
+    
+    a.lightbox-close {
+        margin-top: 80px;
+        margin-right: 50px;
+    display: block;
+    width:50px;
+    height:50px;
+    box-sizing: border-box;
+    background: white;
+    color: black;
+    text-decoration: none;
+    position: absolute;
+    top: -80px;
+    right: 0;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    z-index: 5;
+    }
+    
+    /* Provides part of the "X" to eliminate an image from the close link */
+    
+    a.lightbox-close:before {
+      
+    content: "";
+    display: block;
+    height: 30px;
+    width: 1px;
+    background: black;
+   position: absolute;
+    left: 26px;
+    top:10px;
+    -webkit-transform:rotate(45deg);
+    -moz-transform:rotate(45deg);
+    -o-transform:rotate(45deg);
+    transform:rotate(45deg);
+    z-index: 5;
+    }
+    
+    /* Provides part of the "X" to eliminate an image from the close link */
+    
+    a.lightbox-close:after {
+       
+    content: "";
+    display: block;
+    height: 30px;
+    width: 1px;
+    background: black;
+    position: absolute;
+    left: 26px;
+    top:10px;
+    -webkit-transform:rotate(-45deg);
+    -moz-transform:rotate(-45deg);
+    -o-transform:rotate(-45deg);
+    transform:rotate(-45deg);
+    z-index: 5;
+    }
+    
+    /* Uses the :target pseudo-class to perform the animations upon clicking the .lightbox-target anchor */
+    
+    .lightbox-target:target {
+    opacity: 1;
+    top: 0;
+    bottom: 0;
+      overflow:scroll;
+      z-index: 5;
+    }
+    
+    .lightbox-target:target img {
+    max-height: 80%;
+    max-width: 100%;
+    z-index: 5;
+    }
+    
+    .lightbox-target:target a.lightbox-close {
+    top: 0;
+    z-index: 5;
+    }
+    
+
+    
+
+    
