@@ -205,9 +205,11 @@ img.box-img{
         width: 100%
     }
 
+  
+
     .closebtn{
 
-padding-left: 50px
+    padding-left: 50px
     }
 
 
@@ -221,6 +223,16 @@ padding-left: 50px
   }
 
 
-  @media(max-width:600px) {
+  @media(max-width:464px) {
+  
 
-    
+
+
+
+
+
+
+
+
+
+}
