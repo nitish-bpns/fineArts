@@ -195,10 +195,15 @@ img.box-img{
       align-content: center;
 
     }
-
+    img.box-img {
+      width: 100%;
+      height: auto !important;
+    }
 
     .modal-content{
         width: 100%;
+        height: auto;
+
     
     }
     
