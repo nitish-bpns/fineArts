@@ -179,6 +179,14 @@ img.box-img{
     height: 480px;
     width: 853px;
   }
+
+  .tvid{
+    border: grey;
+    border-width: 1px;
+    width: 90%;
+  
+  }
+  
   
 
   @media(max-width:600px) {

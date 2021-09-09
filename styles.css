@@ -74,7 +74,7 @@ img.box-img{
 
   .img:hover {
     opacity: 1;
-    transform: scale(1.065)
+    transform: scale(1.009)
   }
 
 
@@ -195,7 +195,7 @@ img.box-img{
 
 .bgm{
   display: none;
-  margin-bottom: -7.5%;
+  margin-bottom: -5.5%;
 }
 /* .modal-dialog {
   max-width: 70% !important;
@@ -218,7 +218,20 @@ img.box-img{
 }
 .modal-content {
   width: auto;
+
 }
+
+.tvid{
+  border: grey;
+  border-width: 1px;
+  width: 90%;
+
+}
+
+
+
+
+
   @media(max-width:600px) {
     #card-deck {
       width: 100%;
