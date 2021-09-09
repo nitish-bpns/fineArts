@@ -171,6 +171,16 @@ img.box-img{
     line-height: 1.4em;
   }
 
+
+  .roomh{
+    font-size: 24px
+  }
+  .ifc{
+    height: 480px;
+    width: 853px;
+  }
+  
+
   @media(max-width:600px) {
     #card-deck {
       width: 100%;
@@ -213,7 +223,21 @@ img.box-img{
     }
 
 
-
+.roomh{
+  font-size: 12px
+}
+.bk{
+  font-size: 8px
+}
+.fd{
+  font-size: 8px;
+  margin-right: 0px
+}
+.ifc{
+  height: 337px;
+  width: 92%;
+  ;
+}
 
 
 

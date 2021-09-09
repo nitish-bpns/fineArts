@@ -87,14 +87,15 @@ img.box-img{
 
   .nitish {
     color: #ffffff;
+    font-size: 9px;
   }
 
   #footer {
     background-color: #4c4d4d;
-    height: 75px;
+    height: 78px !important;
     text-align: center;
     padding: 0.5px;
-    margin-top: 1px;
+    margin-top: 0px;
     font-family: sans-serif;
     letter-spacing: 2px;
   }
@@ -111,6 +112,11 @@ img.box-img{
   h2 {
     color: #ffffff;
     position: relative;
+  }
+
+  h2 :hover{
+    color: antiquewhite;
+    opacity: 0.8;
   }
 
 
@@ -187,33 +193,58 @@ img.box-img{
     line-height: 1.4em;
   }
 
+.bgm{
+  display: none;
+  margin-bottom: -7.5%;
+}
+/* .modal-dialog {
+  max-width: 70% !important;
+  margin: 1.75rem auto;
+  border-radius: 20px;
+} */
+
+.modal-header {
+  width: auto;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+  border-bottom: 1px solid #dee2e6;
+  border-top-left-radius: calc(.3rem - 1px);
+  border-top-right-radius: calc(.3rem - 1px);
+}
+.modal-content {
+  width: auto;
+}
   @media(max-width:600px) {
     #card-deck {
       width: 100%;
       align-content: center;
 
     }
-
-    .jumbotron {
-
-      width: 100%;
-      height: 100%;
-      background: url('images/april\ ann9.png');
-      background-repeat: no-repeat;
-      padding-top: 40%;
-      padding-bottom: 18%;
-      -webkit-background-size: 100%;
-      -moz-background-size: 100%;
-      background-size: 100%;
-      -o-background-size: 100%;
-      text-align: center;
-    }
-
-    .photos {
-      background;
-    }
   }
   @media(max-width:600px) {
+
+
+    .jumbotron{
+      display: none;
+      /* width: 100%;
+      height: 100%;
+      background: url('images/bgm.jpg') */
+
+    }
+    .bgm{
+      display: block;
+      width: 100%;
+    }
+    .h2{
+      font-size: 12px;
+      color: white;
+    }
+
 
   }
 

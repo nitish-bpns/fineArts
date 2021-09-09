@@ -39,6 +39,7 @@
       box-shadow: inset 0 12px 19px -7px rgba(0, 0, 0, 0.4);
     }
 
+
     .display-3 {
       color: black;
     }
@@ -113,12 +114,7 @@
       /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
     }
 
-    body {
-      background-image: url("images/wall7.png");
-      background-repeat: repeat;
-    }
-
-    .logo {
+    body .logo {
       height: 60%;
       width: 60%;
 
@@ -177,7 +173,8 @@
 
 </head>
 
-<body data-spy="scroll" data-target="#navbar">
+<body data-spy="scroll" data-target="#navbar" style="background-color: rgb(255, 255, 255);">
+  <img class="bgm" src="images/bgm.jpg">
 
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="navbar">
@@ -188,7 +185,8 @@
 
     <a class="navbar-brand">Fine Arts</a>
 
-    <a href="room1.html" class="navbar-brand" style="float: right !important;padding-left: 60px;">Exhibition Room</a>
+    <a href="room1.html" class="navbar-brand" style="float: right !important;padding-left: 30px;">Exhib Room</a>
+    <a href="tour.html" class="navbar-brand" style="float: right !important;padding-left: 30px;">3D Tour</a>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
@@ -205,35 +203,83 @@
 
     </div>
   </nav>
-
-
-
   <div class="jumbotron" id="jumbotron">
     <h1 class="display-3"></h1>
     <p class="lead"></p>
-
     <p class="subhead"></p>
-
   </div>
 
 
   <div class="Entries" id="entry">
     <hr>
     <a href="room1.html">
-      <h2>
-        Enter Exhibition Room
-      </h2>
+      <div class="h2">
+        Click here for Exhibition Room
+      </div>
+    </a>
+
+    <a href="tour.html">
+      <div class="h2">
+        Click here Virtual Tour
+      </div>
     </a>
 
     <hr>
+
   </div>
 
 
   <div id="footer"><br>
     <div class="nitish">
-      Fine arts exhibition
+      IIT Kharagpur<br>
+      Fine arts exhibition<br>
+
+
+      <a href style="border: none; border-style: none; color:white; text-decoration: none; " type="button"
+        data-toggle="modal" data-target="#exampleModal" ">
+            About
+      </a>
+
+    </div>
+</div>
+  
+
+   <!-- Modal -->
+   <div class=" modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">About</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <h4>
+              <div class="modal-body" style="color: black !important;">
+                Curator- Sougata Das<br>
+                Associate Curator- Dr. Pinaki Gayen<br><br>
+
+                <h6 style="color: #000000;"> Website Credits- Nitish Kumar</h6>
+            </h4>
+            <br>
+            <br>
+
+
+          </div>
+        </div>
+
     </div>
   </div>
+
+
+
+
+
+
+
+
+
 
 
 
