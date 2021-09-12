@@ -252,6 +252,7 @@ img.box-img{
     .bgm{
       display: block;
       width: 100%;
+      height: auto;
     }
     .h2{
       font-size: 12px;
